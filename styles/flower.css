@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    font-family: 'Lato', sans-serif;}
+/*BANNER PART*/
+.banner-container{
+    background: #FDEEF1;
+    
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+.banner-tittle{
+    font-size: 80px;
+    margin-bottom: 32px;
+}
+.btn{
+    color: white;
+    background: #E55473;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-top: 32px;
+    font-size: large;
+
+}
+.banner-image{
+    padding-top: 30px;
+}
+/*FEATURE PART*/
+.feature-text{
+    
+    text-align: center;
+    padding-top: 80px;
+    margin-top: 60px;
+    
+}
+.feature-details{
+    padding-top: 20px;
+
+}
+.feature-box{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    
+    
+}
+.box1{
+    background: #F2DEE7;
+    width: 464px;
+    height: 538px;
+    border-top-right-radius: 240px;
+    border-top-left-radius: 240px;
+    
+}
+.box2{
+    background: #D9EFF1;
+    width: 464px;
+    height: 538px;
+    border-top-right-radius: 240px;
+    border-top-left-radius: 240px;
+
+
+}
+.box3{
+    background: #E3EBDB;
+    width: 464px;
+    height: 538px;
+    border-top-right-radius: 240px;
+    border-top-left-radius: 240px;
+
+}
+.image1{
+    padding-top: 110px;
+    padding-left: 60px;
+}
+.image3{
+    padding-top: 66px;
+    padding-left: 60px;
+}
+.text-1{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 25px;
+    font-weight: 800px;
+}
+
+
+
+/*Icon*/
+.icon-container{
+   
+
+    display: flex;
+    justify-content: center;
+    gap: 12em;
+    text-align: center;
+    background: #F4F4F4;
+    width: 1500px;
+    
+    padding-top: 50px;
+    padding-bottom:  50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+}
+.icon-part
+{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+/*signup*/
+.signup-container{
+    background: #FEF6F8;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 60px;
+    text-align: center;
+    gap: 14em;
+}
+.signup-text span{
+    color: #E55473;
+}
+
+
+/*instagram*/
+.instagram-card{
+    display: flex;
+    justify-content:center ;
+    gap:2em;
+    padding-bottom: 60px;
+}
+.instagram-text{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin-top: 60px;
+}
+.instagram-tittle{
+    padding-bottom: 20px;
+}
+
+.subscribecontainer{
+    width: 1418px;
+    height: 385px;
+    background: url("../bg-latest.png"); 
+    margin: auto;
+    border-radius: 7px;
+    background-size: cover;
+
+}
+.subscribecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.subscribecontainer button{
+    background-color: #E55473;
+    color: white;
+    padding: 14px 27px;
+    border-radius: 8px;
+    border: none;
+}
+.subscribecontainer input{
+    width: 473px;
+    height: 45px;
+    padding-left: 30px;
+    border: none;
+    border-radius: 4px;
+
+}
+.place{
+    display: flex;
+    gap: 1em;
+}
+.subscribecontainer h1{
+    padding-bottom: 15px;
+}
+.subscribecontainer p{
+    padding-bottom: 35px;
+}
+.latestcontainer{
+    padding-top: 100px;
+}
+.btn-3{
+    color: white;
+    background: #E55473;
+    border: none;
+    border-radius: 3px;
+}
+
+
+
+/*BONOUS*/
+
+.bonous-container{
+    background: #FEF6F8;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.bonous-text{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+   
+}
+
+.bonous-box{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background: #FEF6F8;
+}
+.home img{
+    height: 40px;
+    weight: 40px;
+}
+.boxx{
+    width: 120px;
+    height: 100px;
+    background:  #FEF6F8;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+  
+}
+.boxx img{
+    width: 80px;
+    height:80px;
+    
+}
+.footer-part{
+    background: black;
+    color:white;
+    text-align: center;
+    height: 449px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-part span{
+    color: #E55473;
+}
+.footer-part small{
+    font-weight: 400px;
+    
+}
+.footer-tittle{
+    font-weight: 1000px;
+}
+.tittle{
+    font-size: 40px;
+}
+.banner-details{
+    font-size: 18px;
+}
+.feature-details{
+    font-size: 18px;
+}
+.text--details{
+    font-size: 18px;
+}
+.instagram-description{
+    font-size: 18px;
+
+}
+.signup-details{
+    font-size: 18px;
+}
+
+
